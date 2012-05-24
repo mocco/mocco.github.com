@@ -29,10 +29,14 @@
             }
             section article{
             	margin: 200px 0;
-	           	background: #eaeaea;
+	           	background: rgba(150,150,150, 0.2);
 	           	padding: 20px;
 	           	border-top: 1px solid silver;
 	           	border-bottom: 1px solid silver;
+	           	display:none;
+            }
+            section article:target{
+	            display: block;
             }
             @media screen and (max-width: 800px){
 	            section{
@@ -43,9 +47,9 @@
     </head>
     <body>
         <section>
-        	<!--<article>
+        	<article id="about">
         		<strong>mocco</strong> creates web and mobile application. Please contact us on <a href="mailto:post@mocco.no">post@mocco.no</a>.
-	        </article>-->
+	        </article>
 		</section>
     </body>
 </html>
