@@ -1,34 +1,52 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8"/>
-	<title>mocco</title>
+        <title>mocco</title>
         <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" type="image/png" href="favicon.png" />
-	<link rel="apple-touch-icon" href="iphone-icon.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="ipad-icon.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="iphone-icon-retina.png" />
-	<link rel="apple-touch-icon" sizes="144x144" href="ipad-icon-retina.png" />
+        <link rel="shortcut icon" type="image/png" href="favicon.png" />
+        <link rel="apple-touch-icon" href="iphone-icon.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="ipad-icon.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="iphone-icon-retina.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="ipad-icon-retina.png" />
         <style>
             body {
-                background: url(bg.png);
-		color: #305C7A;
+                background: url('bg2.png');
+                color: #000000;
+                margin: 0;
+                padding: 0;
+                font-weight: 200;
             }
-            header{
+            strong, a { color: #305C7A; }
+            section{
                 width: 100%;
                 margin: 200px auto;
-		padding-top: 200px;
+                padding-top: 200px;
                 text-align:center;
                 font-family: 'Josefin Sans', sans-serif;
                 font-weight: 600;
                 font-size: 20px;
-		background: url('mocco.png') no-repeat center;
+                background: url('mocco.png') no-repeat center;
+            }
+            section article{
+            	margin: 200px 0;
+	           	background: #eaeaea;
+	           	padding: 20px;
+	           	border-top: 1px solid silver;
+	           	border-bottom: 1px solid silver;
+            }
+            @media screen and (max-width: 800px){
+	            section{
+                	background-size: 80%;
+                }
             }
         </style>
     </head>
     <body>
-        <header>
-		post@mocco.no
-	</header>
+        <section>
+        	<!--<article>
+        		<strong>mocco</strong> creates web and mobile application. Please contact us on <a href="mailto:post@mocco.no">post@mocco.no</a>.
+	        </article>-->
+		</section>
     </body>
 </html>
 
