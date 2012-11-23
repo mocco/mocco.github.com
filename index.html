@@ -20,17 +20,17 @@
             strong, a { color: #305C7A; text-decoration: none;}
             section{
                 width: 100%;
-                margin: 10px auto;
-                padding-top: 60px;
+                margin: 40% auto 10px auto;
                 text-align:center;
                 font-family: 'Josefin Sans', sans-serif;
                 font-weight: 600;
                 font-size: 20px;
-                background: url('mocco.png') no-repeat center;
-                background-size: 80%;
+            }
+            section img {
+                width: 80%;
             }
             section article{
-            	margin: 200px 0;
+            	margin: 40px 0;
 	           	background: rgba(150,150,150, 0.2);
 	           	padding: 20px;
 	           	border-top: 1px solid silver;
@@ -42,13 +42,12 @@
 
             @media screen and (min-width: 500px){
                 section{
-                    margin-top: 200px;
-                    padding-top: 200px;
+                    margin-top: 300px;
                 }
             }
             @media screen and (min-width: 800px){
-                section{
-                    background-size: auto;
+                section img {
+                    width: 50%;
                 }
 
             }
@@ -56,6 +55,7 @@
     </head>
     <body>
         <section>
+            <img src="mocco.svg" title="mocco" alt"mocco" />
         	<article id="about">
         		<strong>mocco</strong> creates web and mobile application. Please contact us on <a href="mailto:post@mocco.no">hei@mocco.no</a>
 	        </article>
